@@ -1,0 +1,131 @@
+/*AJUSTES GERAIS*/
+img {
+    width: 150px;
+    height: 150px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0 solid black;
+}
+a,i{
+    transition: .5s;
+    text-decoration: none;
+    color: #252b2e;
+}
+a:hover{
+    text-decoration: underline;
+}
+.center-image{
+    background-size: cover;
+    background-position: center;
+
+}
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+
+}
+#header p{
+    margin-bottom: 0;
+}
+/*LOGO*/
+#logo-container{
+    display: flex;
+}
+#logo{
+    width: 150px;
+}
+/*NAV*/
+#navbar{
+    padding: 10px;;
+    margin: 10px auto;   
+}
+#navbar a{
+    width: 90px;
+    color: white;
+}
+#navbar a:hover{
+    color: red;
+}
+/*BODY*/
+
+/* Resetando os estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container para centralizar o conteúdo */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos do Cabeçalho */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do menu de redes sociais */
+  .social-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-link img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-link:hover img {
+    transform: scale(1.1);
+  }
+
+  body {
+    background: linear-gradient(to right, #c3a8f7, #9b7bde, #7a55d9);
+}
+
+section {
+  background: linear-gradient(to right, #d1b3f0, #c3a8f7, #b497e7);
+}
+
+h2 {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: white;
+  font-family: 'Times New Roman', serif;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: white;
+  font-family: 'Times New Roman', serif;
+}
