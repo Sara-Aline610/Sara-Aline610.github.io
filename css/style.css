@@ -103,11 +103,7 @@ a:hover{
   }
 
   body {
-    background: linear-gradient(to right, #c3a8f7, #9b7bde, #7a55d9);
-}
-
-section {
-  background: linear-gradient(to right, #d1b3f0);
+    background: linear-gradient(to right, #c3a8f7, #9b7bde);
 }
 
 h2 {
@@ -120,12 +116,3 @@ p {
   font-family: 'Times New Roman', serif;
 }
 
-h2 {
-  color: white;
-  font-family: Arial, sans-serif;
-}
-
-p {
-  color: white;
-  font-family: 'Times New Roman', serif;
-}
